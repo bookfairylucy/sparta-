@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--    타이틀 -->
+    <title>LucyHomework_W1_짭짤한 맛 </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        header {
+            width: 995px;
+            height: 100px;
+            margin-top: 50px;
+            margin-left: 30px;
+            text-align: center;
+        }
+
+        #bigtitle {
+            float: left;
+            border-bottom: solid 1px darkgray;
+        }
+
+        #toprightnav {
+            float: right;
+            margin: 5px auto;
+            padding: 5px 5px;
+            border: solid 1px darkorange;
+
+        }
+
+        nav ul {
+            width: 600px;
+            border: solid 1px darkgray;
+            border-radius: 10px
+        }
+
+        nav li {
+            list-style-type: none;
+            display: inline;
+            color: rebeccapurple;
+            text-align: center;
+
+        }
+
+        .wrap {
+            margin: auto;
+            width: 700px;
+        }
+
+        #booktitle {
+            font-size: 30px;
+            display: inline;
+        }
+
+
+        .caption {
+            width = 500px;
+            margin-top: 20px
+            margin-bottom: 20px;
+        }
+
+        .order-box {
+            display: block;
+
+        }
+
+        .mybtn {
+            margin: auto;
+            display: block;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+<!--상단 헤더-->
+<header>
+
+    <div id="toprightnav">
+        로그인 | 회원가입 | 사이트맵 | 회사소개
+    </div>
+
+    <div id="bigtitle">
+        <h1> 생초짜 컴맹의 스파르타 코딩 도전기 </h1>
+        <h2> Week 1 숙제: 짭잘한 맛 </h2>
+        <h3> 나만의 원페이지 쇼핑몰 만들기 </h3>
+    </div>
+
+
+</header>
+
+<br>
+<hr>
+
+<p>
+</p>
+
+
+<!--네비게이션 메뉴-->
+<nav>
+    <ul>
+        <li>
+            영어독서지도사과정
+        </li>
+        <li> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</li>
+        <li>
+            파닉스지도사과정
+        </li>
+        <li> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</li>
+        <li>
+            독서토론지도사과정
+        </li>
+        <li> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</li>
+    </ul>
+
+</nav>
+
+<!--사이드 메뉴바-->
+<aside>
+
+</aside>
+
+<!--본 숙제 -->
+<section>
+    <div class="wrap">
+        <div class="itemimg">
+            <img src="readingsos.jpeg" width="40%" height="40%" align="center">
+        </div>
+
+        <br>
+        <span id="booktitle"> <b> 도서명: 영어독서코칭SOS </b> 가격: 15,000원 </span>
+        <div clss="caption">
+            <p> 이 책은 영어독서전문가이자 유투버인 bookfairylucy 가 쓴 책으로 엄마표 영어의 장점은 살리고 단점을 보강할 수 있는 체계적인 독서지도법에 대한 내용이다. 자녀가 있는 학부모나
+                선생님이라면
+                아이의 독서에 대한 통찰력을 가질 수 있게 해주기 때문에 적극 추천한다. </p>
+        </div>
+
+
+        <p>
+
+        </p>
+
+        <div clss="order-box">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> 주문자 이름 </span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01"> 수량 </label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected> -- 수량을 선택하세요 --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> 주소  </span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default"> 전화번호 </span
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+
+
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-primary mybtn"> 주문하기</button>
+
+        </div>
+
+
+</section>
+
+</div>
+
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col"> 이름</th>
+            <th scope="col"> 수량</th>
+            <th scope="col"> 주소</th>
+            <th scope="col"> 전화번호</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row"> 박르탄</th>
+            <td> 10000</td>
+            <td> 르탄시 코딩구 열심동</td>
+            <td> 010-1234-5678</td>
+        </tr>
+</div>
+
+
+</body>
+</html>
